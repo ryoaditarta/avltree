@@ -154,7 +154,8 @@ public class pohonavl{
                     if(cmd[1].equals("preorder")) avl.preorder();
                     else if(cmd[1].equals("inorder")) avl.inorder();
                     else if(cmd[1].equals("postorder")) avl.postorder();
-                    else if(cmd[1].equals("level"))avl.level();;
+                    else if(cmd[1].equals("levels"))avl.level();
+                    else System.out.println("Peritah Salah!"); 
                 break; 
                 case "exit":
                     input.close(); 
