@@ -142,17 +142,6 @@ public class pohonavl{
 
         Scanner input = new Scanner(System.in); 
         avltree avl = new avltree(); 
-
-        // avl.insert(10); 
-        // avl.insert(25); 
-        // avl.insert(40); 
-        // avl.insert(18); 
-        // avl.insert(12); 
-        // avl.insert(5); 
-
-        // avl.preorder();
-        // avl.inorder();
-        // avl.postorder();
         
         while(true){
             String temp = input.nextLine(); 
